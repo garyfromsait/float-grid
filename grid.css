@@ -1,26 +1,26 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .wrapper {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .row {
-  width: 100%;
+    width: 100%;
 }
 
 .row .column {
-  float: left;
-  margin: 10px 1%;
+    float: left;
+    margin: 10px 1%;
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .small-1 { width: 6.333333333333334%; }
